@@ -1,4 +1,5 @@
 - [前端异常监控](https://github.com/xlearns/myblog/issues/1)
+- [双链表](https://github.com/xlearns/myblog/issues/2)
 ## 函数取整
 - ~、>>、<<、>>>、|来取整
 ```js
