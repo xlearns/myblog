@@ -1,5 +1,5 @@
 ## 读书
-- [前端开发核心知识](https://github.com/xlearns/myblog/issues/4)
+- [前端开发核心知识](https://github.com/xlearns/myblog/issues/7)
 ## 笔记
 - [前端异常监控](https://github.com/xlearns/myblog/issues/1)
 - [双链表](https://github.com/xlearns/myblog/issues/2)
