@@ -1,3 +1,6 @@
+## 读书
+- [前端开发核心知识](https://github.com/xlearns/myblog/issues/4)
+## 笔记
 - [前端异常监控](https://github.com/xlearns/myblog/issues/1)
 - [双链表](https://github.com/xlearns/myblog/issues/2)
 - [chaining](https://github.com/xlearns/myblog/issues/3)
