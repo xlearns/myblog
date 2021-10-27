@@ -8,6 +8,7 @@
 - [响应式原理](https://github.com/xlearns/myblog/issues/9)
 - [模板解析](https://github.com/xlearns/myblog/issues/10)
 - [a为何止的时候a==2&&a==3&&a==4 为true？](https://github.com/xlearns/myblog/issues/11)
+- [vue组件库](https://github.com/xlearns/myblog/issues/12)
 ## 函数取整
 - ~、>>、<<、>>>、|来取整
 ```js
