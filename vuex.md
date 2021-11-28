@@ -1,1 +1,16 @@
-
+## 你有写过vuex中store的插件吗？
+## 你有使用过vuex的module吗？主要是在什么场景下使用？
+## vuex中actions和mutations有什么区别？
+## vuex使用actions时不支持多参数传递怎么办？
+## 你觉得vuex有什么缺点？
+## 你觉得要是不用vuex的话会带来哪些问题？
+## vuex怎么知道state是通过mutation修改还是外部直接修改的？
+## 请求数据是写在组件的methods中还是在vuex的action中？
+## 怎么监听vuex数据的变化？
+## vuex的action和mutation的特性是什么？有什么区别？
+## 页面刷新后vuex的state数据丢失怎么解决？
+## vuex的state、getter、mutation、action、module特性分别是什么？
+## vuex的store有几个属性值？分别讲讲它们的作用是什么？
+## 你理解的vuex是什么呢？哪些场景会用到？不用会有问题吗？有哪些特性？
+## 使用vuex的优势是什么？
+## 有用过vuex吗？它主要解决的是什么问题？推荐在哪些场景用？
