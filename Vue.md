@@ -1,13 +1,30 @@
 ## 从0到1自己构架一个vue项目，说说有哪些步骤、哪些重要插件、目录结构你会怎么组织
 ## 你知道vue的模板语法用的是哪个web模板引擎的吗？说说你对这模板引擎的理解
 ## 你知道v-model的原理吗？说说看
+- v-model是一个语法糖，对应组件内部实现的话，props传value,触发用$emit('input')
+- vue3:props:modelValue:触发则为emit('update:modelValue')
+
 ## 你有使用过vue开发多语言项目吗？说说你的做法？
+多语言适配（i18n）与使用哪种前端框架无关。
+本质上是维护一个 map，然后通过一个中间层返回当前语种的显示内容。
+这个 map 可以存储在 DB，通过 HTTP 接口获取；
+也可以硬编码在 javascript 文件中，通过某个公共的 translate 方法获取；
+当前语种可以由用户选择存储在本地；
+也可以由 WebServer 通过判断客户端 IP 地址来识别使用哪种语种；
+
 ## 在使用计算属性的时，函数名和data数据源中的数据可以同名吗？
+可以同名，但computed会覆盖data【执行顺序为props->methods->data->computed->watch】。为什么会覆盖，因为Props、methods、data、computed、watch都是在initState函数中按照顺序初始化的。你如果重名的话，后面出现的属性自然而然会覆盖之前挂载的属性了。
+
 ## vue中data的属性可以和methods中的方法同名吗？为什么？
+可以同名，但data会覆盖methods【执行顺序为props->methods->data->computed->watch】。为什么会覆盖，因为Props、methods、data、computed、watch都是在initState函数中按照顺序初始化的。你如果重名的话，后面出现的属性自然而然会覆盖之前挂载的属性了。
+
 ## 怎么给vue定义全局的方法？
-## vue2.0不再支持v-html中使用过滤器了怎么办？
-## 怎么解决vue打包后静态资源图片失效的问题？
+- vue2.x挂载到原型上：Vue.prototype或者mixin
+- vue3：
+
+
 ## 怎么解决vue动态设置img的src不生效的问题？
+
 ## 使用vue后怎么针对搜索引擎做SEO优化？
 ## 跟keep-alive有关的生命周期是哪些？描述下这些生命周期
 ## 如果现在让你从vue/react/angularjs三个中选择一个，你会选哪个？说说你的理由
