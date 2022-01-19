@@ -517,3 +517,126 @@ o[Symbol.iterator] = function(){
 ## 为什么给对象添加的方法能用在基本类型上？
 - .运算符提供了装箱操作，他会根据基础数据类型，创建一个临时的对象，使得我们可以在基础数据类型上调用对于的对象方法
 
+## 说一下http与https
+
+## Tcp三次握手
+
+## TCP和UDP区别
+
+## WebSocket的实现和应用
+
+## http请求的方式、head方式
+
+## 一个图片URL访问后直接下载怎样实现？
+
+## 说一下webQuality
+
+## 说一下HTML5 drag api
+
+## 说一下http2.0
+
+## 补充400、401、403状态码
+
+## fetch发送两次请求的原因
+
+## Cookie、sessionStorage、localStorage区别
+
+## 说一下Web worker
+
+## 对html语义化的理解
+
+## iframe是什么？有什么缺点
+
+## Doctype作用？严格模式与混杂模式如何区分？它们有何意义
+
+## Cookie如何防范xss
+
+## Cookie和Seesion区别
+
+## 概括RESTFUL
+
+## viewport和移动端布局
+
+## click在ios有300ms延迟原因和如何解决
+
+## AddEventListener参数
+
+## http常用请求头
+
+## 强、协商缓存
+
+## 304
+
+## 强、协商缓存什么时候用那个
+
+## 前端优化
+
+## GET与POST区别
+
+## 301与302区别
+
+## 如何画一个三角形
+
+## 说一下浏览器缓存
+
+## HTML5新增元素
+
+## 在地址栏输入一个url，到这个页面呈现，中间会发生什么
+
+## cache-control的值有哪些
+
+## 浏览器在生成页面的时候，会生成那两颗树
+
+## 那些请求头跟缓存相关
+
+## css盒模型
+
+## 画一条0.5的线
+
+## link与import标签的区别
+
+## transition和animation的区别
+
+## flex布局
+
+## BFC
+
+## 垂直居中的方法
+
+## js动画和css3动画的差异性
+
+## 块、行元素
+
+## 多行元素的文本省略号
+
+## 外边距折叠
+
+##清除浮动
+
+## 怎样让一个元素消失
+
+## 三栏布局的实现方式
+
+## calc
+
+## display：table和本身table有何区别
+
+## 如果想要改变一个dom的字体颜色，不在它本身进行操作
+
+## line-height与height区别
+
+## 设置一个元素的背景，背景颜色会填充那些区域
+
+## 属性选择器与伪类选择器的优先级
+
+## 为什么img是inline还可以设置宽高
+
+## 重绘重排
+
+## CSS正方形
+
+## overflow原理
+
+## box-sizing基本用法
+
+## flex布局
